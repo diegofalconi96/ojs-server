@@ -1,0 +1,17 @@
+<?php return array (
+  'api.400.paramNotSupported' => 'El parámetro {$param} no está soportado.',
+  'api.403.unauthorized' => 'No tiene autorización para acceder al recurso solicitado.',
+  'api.404.resourceNotFound' => 'El recurso solicitado no fue encontrado.',
+  'api.404.endpointNotFound' => 'La URL solicitada no fue reconocida.',
+  'api.submissions.403.csrfTokenFailure' => 'Su solicitud fue rechazada. Esto puede deberse a que su sesión ha exportado. Pruebe recargar la página e intenrtar nuevamente.',
+  'api.submissions.403.requestedOthersUnpublishedSubmissions' => 'Solo puede ver envíos sin publicar a los que usted ha sido asignado.',
+  'api.submissions.403.deleteSubmissionOutOfContext' => 'No puede eliminar un envío que no está asignado a este contexto.',
+  'api.submissions.403.unauthorizedDeleteSubmission' => 'No tiene permisos para eliminar este envío.',
+  'api.submissions.404.resourceNotFound' => 'El recurso solicitado no fue encontrado.',
+  'api.submissions.400.missingRequired' => 'Su solicitud no pudo ser completada ya que le falta información requerida.',
+  'api.submissions.400.invalidIssueIdentifiers' => 'El volumen, número o año requerido no es válido.',
+  'api.submissions.unknownError' => 'Un error inesperado ha ocurrido. Por favor recargue la página e intente nuevamente.',
+  'api.stats.400.wrongDateFormat' => 'Su solicitud no fue válida. La fecha debe tener el formato YYYY-MM-DD.',
+  'api.stats.400.wrongDateRange' => 'Su solicitud no fue válida. La fecha de inicio no puede ser posterior a la fecha de finalización.',
+  'api.stats.400.wrongTimeSegmentDaily' => 'Su solicitud no fue válida. El segmento de tiempo "diario" sólo puede utilizarse junto a un rango de fechas (fecha de inicio y fecha de finalización) dentro de los últimos 90 días.',
+); ?>
